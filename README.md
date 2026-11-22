@@ -14,7 +14,7 @@ everything that was dropped for failing validation.
 
 - `gen.py` — Pillow generator (local only). Draws the whole page with code:
   masthead, date headline, stat boxes, region bar, 3 hero stories with
-  code-drawn illustrations, 9 grid stories with small icons, a simplified
+  code-drawn illustrations, 10 grid stories with full-bleed illustrations, a simplified
   world map with a red dot per story, an "ALSO ON SATURDAY" list, and a
   date-check footer. Deterministic: running it twice gives the same SHA-256.
 - `main.py` — the entry point (stdlib only, no Pillow). Copies the
@@ -25,14 +25,14 @@ everything that was dropped for failing validation.
 ## Verify
 
 ```sh
-python3 gen.py          # renders entry.png (1024x1024, ~192 KB)
+python3 gen.py          # renders entry.png (1024x1024, ~217 KB)
 python3 gen.py          # run again: same sha256 (deterministic)
 MAKEFUN_OUTPUT_DIR=out python3 main.py   # copies + verifies entry.png
 ```
 
 ## Entry
 
-- `entry.png` — 1024×1024, 191,841 bytes
-- SHA-256: `37a403e792c8895e593de9513a1457638fafc5b014a340d992da3100dcdc577b`
+- `entry.png` — 1024×1024, 221,969 bytes
+- SHA-256: `b94acedd7e9f8ab4d1b9ca372b971a9b63c1698c1ab2b8a48bcb7465f4554a6c`
 
 Competition: [news-image-20261121](https://make.fun/c/news-image-20261121)
