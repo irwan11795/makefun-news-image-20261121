@@ -5,7 +5,7 @@
 [![reward](https://make.fun/badge/news-image-20261121/irwan11795/makefun-news-image-20261121/reward.svg)](https://make.fun/c/news-image-20261121)
 
 A single 1024×1024 newspaper page summing up **Saturday 21 November 2026**
-in one image: 23 stories across 7 regions, every one verified to that day
+in one image: 33 stories across 7 regions, every one verified to that day
 against a primary source (wire service, official site, or official
 statement). See [NOTES.md](NOTES.md) for the source of every story and
 everything that was dropped for failing validation.
