@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Entry point for news-image-20261121.
+"""Entry point for news-image-20261121 (v3).
 
 Copies the pre-rendered entry.png (built locally by gen.py) into the
 output directory and verifies its SHA-256 before finishing, so a
@@ -15,7 +15,7 @@ import sys
 import tempfile
 
 EXPECTED_SHA256 = (
-    "37a403e792c8895e593de9513a1457638fafc5b014a340d992da3100dcdc577b"
+    "b94acedd7e9f8ab4d1b9ca372b971a9b63c1698c1ab2b8a48bcb7465f4554a6c"
 )
 SOURCE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "entry.png")
 
